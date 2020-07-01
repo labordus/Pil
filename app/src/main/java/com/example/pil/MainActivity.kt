@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
             val name = "My Channel"
             val channelDescription = "Channel Description"
-            val importance = NotificationManager.IMPORTANCE_DEFAULT
+            val importance = NotificationManager.IMPORTANCE_LOW
 
             val channel = NotificationChannel(channelId,name,importance)
             channel.apply {
