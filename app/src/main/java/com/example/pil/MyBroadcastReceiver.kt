@@ -1,6 +1,7 @@
 package com.example.pil
 
 
+import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -13,5 +14,6 @@ class MyBroadcastReceiver: BroadcastReceiver(){
 //        Toast.makeText(context,extra, Toast.LENGTH_LONG).show()
 //        Toast.makeText(applicationContext,"this is toast message",Toast.LENGTH_SHORT).show()
         Toast.makeText(context,"this is toast message",Toast.LENGTH_LONG).show()
+//        TestIt("Heel erg grappig")
     }
 }
